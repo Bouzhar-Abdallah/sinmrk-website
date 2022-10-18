@@ -1,0 +1,32 @@
+*{
+    padding: 0 0;
+    margin: 0 0;
+}
+div{
+    margin-bottom: 10px;
+}
+.menu{
+    background-color: red;
+    height: 36px;
+}
+.slider{
+    background-color: orange;
+    height: 600px;
+}
+.product:nth-child(1){background-color: green;flex: 1;}
+.product:nth-child(2){background-color: red;flex: 2;}
+.product:nth-child(3){background-color: blue;flex: 1;}
+
+
+.best-selling-container {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+.product{
+    flex-basis: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
