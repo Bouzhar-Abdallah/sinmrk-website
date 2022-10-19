@@ -20,9 +20,10 @@
     
 }
 img{
-    width: 150px;
-    height: 150px;
-    object-fit: contain;  
+    height: 80px;
+    object-fit: scale-down;  
+    object-position: center;
+    border: solid 2px red;
 }
 .product{
     display: flex;
@@ -31,7 +32,6 @@ img{
 .product1,.product3{
     background-color: aqua;
     box-sizing: border-box;
-
     flex-direction: column;
 }
 .product2{
@@ -59,9 +59,7 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 80%;
+    /*height: 80%;*/
     text-align: center;
 }
-.titre{
-    margin: 10px 0px;
-}
+
