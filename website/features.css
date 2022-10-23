@@ -54,7 +54,7 @@ section p,h3{
 
 .stars i{
     color: var(--orange);
-    vertical-align: middle;
+    margin-top: 8px;
 }
 
 :is(.feature:hover) p{
