@@ -43,7 +43,7 @@ p{
     justify-content: space-between;
     background-color: aqua;
     gap: 1rem;
-    position: absolute;
+    /* position: absolute; */
 }
 
 img{
@@ -64,8 +64,9 @@ img{
    
     background-color: #F8F9FC;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
-    padding: 0 10px;
-    margin: 20px 0;
+    /* padding: 0 10px; */
+    /* margin: 20px 0; */
+    height: fit-content;
 }
 .product1,.product3{
     
@@ -101,7 +102,50 @@ img{
     height: 80%;
     text-align: center;
 }
+/****** hover*******/
+.check1{
+    position: relative;
+    bottom: 0;
+    display: none;
+    background-color: orange;
+    width: 100%;
+    text-align: center;
+    /* height: 50px; */
+    padding: 10px 0;
+}
+.check2{
+    position: relative;
+    bottom: 0;
+    display: none;
+    
+    background-color: brown;
+    width: 100%;
+    text-align: center;
+    /* height: 50px; */
+    padding: 10px 0;
+}
+.check3{
+    position: relative;
+    bottom: 0;
+    display: none;
+    background-color: orange;
+    width: 100%;
+    text-align: center;
+    /* height: 50px; */
+    padding: 10px 0;
+}
 
+:is(.product1:hover) .check1{
+    display: block;
+}
+:is(.product2:hover) .check2{
+    display: block;
+}
+:is(.product3:hover) .check3{
+    display: block;
+}
+
+/****** media Qs*******/
 @media screen and (max-width: 1000px) {
     .best-selling-container{
         
@@ -123,9 +167,11 @@ img{
     } 
     .product1{
         width: 42%;
+        
     }
     .product3{
         width: 42%;
+       
     }
 
 }
