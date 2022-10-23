@@ -14,7 +14,6 @@
 body{
     background-color: #FFF3E2;
     font-family: roboto;
-    
 }
 h3{
     color: #444545;
@@ -41,7 +40,7 @@ p{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    background-color: aqua;
+
     gap: 1rem;
     /* position: absolute; */
 }
