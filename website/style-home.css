@@ -59,9 +59,13 @@ li:hover{
 
 
 /*************** menu***************/
+.menu{
+    display: none;
+}
 .slider{
     margin: 10px;
-    background-color: orange;
+    background-color: unset;
+    border:2px solid #151513;
     height: 150px;
 }
 body{
@@ -235,4 +239,8 @@ img{
         width: fit-content;
     }
     
+}
+
+.best-selling-container{
+    display: none;
 }
